@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #0a0a0a;
+  color: #ffffff;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.formulario {
+  display: flex;
+  gap: 10px; 
+ margin-bottom: 30px;
+ flex-wrap: wrap;
+}
+
+.formulario input {
+  flex: 1;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 12px 16px;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  outline: none;
+  min-width: 150px;
+}
+
+.formulario. input:focus {
+  border-color: #512696;
+}
+
+.formulario button {
+  background-color: #512696;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+.formulario button:hover {
+  background-color: #dddddd;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #1a1a1a;
+}
+
+th {
+  padding: 14px 16px;
+  text-align: left;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #aaaaaa;
+  border-bottom: 1px solid #333;
+}
+
+td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #1a1a1a;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+tr:hover {
+  background-color: #1a1a1a;
+}
+
+td button {
+  background-color: transparent;
+  border: 1px solid #ff4444;
+  color: #ff4444;
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+td button:hover {
+  background-color: #ff4444;
+  color: #ffffff;
+}
+
+button {
+  transition: background-color 0.3s, color 0.3s;
+  background-color: #512696;
+  color: #ffffff; 
+
